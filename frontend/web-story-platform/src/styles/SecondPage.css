@@ -1,0 +1,81 @@
+.second-page {
+    padding: 20px;
+  }
+  
+  .category-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .category {
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .category.active {
+    border: 2px solid #00b3ff;
+  }
+  
+  .stories-section {
+    margin-bottom: 30px;
+  }
+  
+  .stories-section h2 {
+    margin-bottom: 15px;
+  }
+  
+  .stories-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .story-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .story-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .story-content {
+    padding: 10px;
+  }
+  
+  .story-content h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .story-content p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .see-more-btn {
+    display: block;
+    background-color: #ff4b60;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    text-align: center;
+  }
+  
+  .see-more-btn:hover {
+    background-color: #ff3a50;
+  }
+  
